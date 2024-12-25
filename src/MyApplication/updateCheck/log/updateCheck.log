@@ -1,0 +1,84 @@
+2024-12-11 11:43:41,528 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.ToCheck - Check start
+2024-12-11 11:43:47,602 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - old sdk path is null.
+2024-12-11 11:45:04,317 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.ToCheck - Check start
+2024-12-11 11:45:23,573 [JobScheduler FJ pool 8/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api diff tool
+2024-12-11 11:45:23,573 [JobScheduler FJ pool 14/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api collect tool
+2024-12-11 11:45:23,575 [JobScheduler FJ pool 14/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - application order:node api-collector.js --app D:/DevEcoStudioProjects/MyApplication --output D:\DevEcoStudioProjects\MyApplication\updateCheck --sdk D:\OpenHarmony\Sdk\11\ets --format json
+2024-12-11 11:45:23,578 [JobScheduler FJ pool 8/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - diff order:node api-diff.js --old D:\OpenHarmony\Sdk\11\ets --new D:\OpenHarmony\Sdk\11\ets --oldVersion 4.1.7.5 --newVersion 4.1.7.5 --output E:\updateCheck\api-diff\result --format json
+2024-12-11 11:45:27,944 [JobScheduler FJ pool 14/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Run api collect tool end
+2024-12-11 11:45:31,322 [JobScheduler FJ pool 8/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Run api diff tool end
+2024-12-11 11:45:31,322 [ApplicationImpl pooled thread 103] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start process and filter data
+2024-12-11 11:45:31,333 [ApplicationImpl pooled thread 103] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Process and filter data end
+2024-12-11 11:45:31,333 [ApplicationImpl pooled thread 103] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start save report to disk
+2024-12-11 11:45:31,350 [ApplicationImpl pooled thread 103] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Save report to disk end
+2024-12-11 11:47:06,937 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.ToCheck - Check start
+2024-12-11 11:47:15,953 [JobScheduler FJ pool 7/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api diff tool
+2024-12-11 11:47:15,953 [JobScheduler FJ pool 2/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api collect tool
+2024-12-11 11:47:15,954 [JobScheduler FJ pool 7/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - diff order:node api-diff.js --old D:\OpenHarmony\Sdk\10\ets --new D:\OpenHarmony\Sdk\11\ets --oldVersion 4.0.10.16 --newVersion 4.1.7.5 --output E:\updateCheck\api-diff\result --format json
+2024-12-11 11:47:15,954 [JobScheduler FJ pool 2/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - application order:node api-collector.js --app D:/DevEcoStudioProjects/MyApplication --output D:\DevEcoStudioProjects\MyApplication\updateCheck --sdk D:\OpenHarmony\Sdk\10\ets --format json
+2024-12-11 11:47:19,502 [JobScheduler FJ pool 2/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Run api collect tool end
+2024-12-11 11:47:22,386 [JobScheduler FJ pool 7/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Run api diff tool end
+2024-12-11 11:47:22,387 [ApplicationImpl pooled thread 112] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start process and filter data
+2024-12-11 11:47:22,686 [ApplicationImpl pooled thread 112] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Process and filter data end
+2024-12-11 11:47:22,686 [ApplicationImpl pooled thread 112] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start save report to disk
+2024-12-11 11:47:22,687 [ApplicationImpl pooled thread 112] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Save report to disk end
+2024-12-11 11:50:48,803 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.ToCheck - Check start
+2024-12-11 11:51:27,484 [JobScheduler FJ pool 10/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api diff tool
+2024-12-11 11:51:27,484 [JobScheduler FJ pool 0/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api collect tool
+2024-12-11 11:51:27,485 [JobScheduler FJ pool 10/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - diff result already exists
+2024-12-11 11:51:27,486 [JobScheduler FJ pool 0/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - application order:node api-collector.js --app D:/DevEcoStudioProjects/MyApplication --output D:\DevEcoStudioProjects\MyApplication\updateCheck --sdk D:\OpenHarmony\Sdk\11\ets --format json
+2024-12-11 11:51:30,928 [JobScheduler FJ pool 0/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Run api collect tool end
+2024-12-11 11:51:30,929 [ApplicationImpl pooled thread 133] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start process and filter data
+2024-12-11 11:51:30,931 [ApplicationImpl pooled thread 133] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Process and filter data end
+2024-12-11 11:51:30,931 [ApplicationImpl pooled thread 133] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start save report to disk
+2024-12-11 11:51:30,932 [ApplicationImpl pooled thread 133] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Save report to disk end
+2024-12-11 11:54:37,366 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.ToCheck - Check start
+2024-12-11 12:00:25,978 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.ToCheck - Check start
+2024-12-11 12:02:12,324 [JobScheduler FJ pool 2/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api collect tool
+2024-12-11 12:02:12,324 [JobScheduler FJ pool 4/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api diff tool
+2024-12-11 12:02:12,325 [JobScheduler FJ pool 4/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - diff result already exists
+2024-12-11 12:02:12,325 [JobScheduler FJ pool 2/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - application order:node api-collector.js --app D:/DevEcoStudioProjects/MyApplication --output D:\DevEcoStudioProjects\MyApplication\updateCheck --sdk D:\OpenHarmony\Sdk\11\ets --format json
+2024-12-11 12:02:15,675 [JobScheduler FJ pool 2/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Run api collect tool end
+2024-12-11 12:02:15,675 [ApplicationImpl pooled thread 146] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start process and filter data
+2024-12-11 12:02:15,677 [ApplicationImpl pooled thread 146] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Process and filter data end
+2024-12-11 12:02:15,678 [ApplicationImpl pooled thread 146] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start save report to disk
+2024-12-11 12:02:15,678 [ApplicationImpl pooled thread 146] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Save report to disk end
+2024-12-11 12:02:20,403 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.ReporterToolWindowFactory - Start loading report window
+2024-12-11 12:02:20,406 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Start loading report window
+2024-12-11 12:02:20,408 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Report size:0
+2024-12-11 12:02:20,409 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Loading report window end
+2024-12-11 12:02:20,409 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Start rendering JTable
+2024-12-11 12:02:20,413 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Rendering JTable end
+2024-12-11 12:02:24,428 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.ShowTypeDialog - start filter changeType
+2024-12-11 12:02:25,627 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.ShowTypeDialog - filter completed
+2024-12-11 12:02:25,637 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Start reload report window
+2024-12-11 12:02:25,638 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Reload report window end
+2024-12-11 12:11:16,067 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.ToCheck - Check start
+2024-12-11 12:11:21,892 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.ToCheck - Check start
+2024-12-11 12:11:30,177 [JobScheduler FJ pool 10/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api diff tool
+2024-12-11 12:11:30,177 [JobScheduler FJ pool 13/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api collect tool
+2024-12-11 12:11:30,178 [JobScheduler FJ pool 10/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - diff result already exists
+2024-12-11 12:11:30,178 [JobScheduler FJ pool 13/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - application order:node api-collector.js --app D:/DevEcoStudioProjects/MyApplication --output D:\DevEcoStudioProjects\MyApplication\updateCheck --sdk D:\OpenHarmony\Sdk\10\ets --format json
+2024-12-11 12:11:33,146 [JobScheduler FJ pool 13/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Run api collect tool end
+2024-12-11 12:11:33,147 [ApplicationImpl pooled thread 171] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start process and filter data
+2024-12-11 12:11:33,293 [ApplicationImpl pooled thread 171] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Process and filter data end
+2024-12-11 12:11:33,294 [ApplicationImpl pooled thread 171] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start save report to disk
+2024-12-11 12:11:33,295 [ApplicationImpl pooled thread 171] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Save report to disk end
+2024-12-11 12:11:35,298 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Start reload report window
+2024-12-11 12:11:35,298 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Report size:0
+2024-12-11 12:11:35,299 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Reload report window end
+2024-12-11 12:12:20,703 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.ToCheck - Check start
+2024-12-11 12:12:39,808 [JobScheduler FJ pool 12/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api diff tool
+2024-12-11 12:12:39,809 [JobScheduler FJ pool 5/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start run api collect tool
+2024-12-11 12:12:39,809 [JobScheduler FJ pool 12/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - diff result already exists
+2024-12-11 12:12:39,810 [JobScheduler FJ pool 5/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - application order:node api-collector.js --app D:/DevEcoStudioProjects/MyApplication --output D:\DevEcoStudioProjects\MyApplication\updateCheck --sdk D:\OpenHarmony\Sdk\11\ets --format json
+2024-12-11 12:12:44,676 [JobScheduler FJ pool 5/15] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Run api collect tool end
+2024-12-11 12:12:44,677 [ApplicationImpl pooled thread 14] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start process and filter data
+2024-12-11 12:12:44,690 [ApplicationImpl pooled thread 14] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Process and filter data end
+2024-12-11 12:12:44,691 [ApplicationImpl pooled thread 14] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Start save report to disk
+2024-12-11 12:12:44,701 [ApplicationImpl pooled thread 14] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateCheckWizardDialog - Save report to disk end
+2024-12-11 12:12:47,259 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Start reload report window
+2024-12-11 12:12:47,260 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Report size:0
+2024-12-11 12:12:47,261 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.view.UpdateReportPanel - Reload report window end
+2024-12-12 11:17:02,164 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.ToCheck - Check start
+2024-12-12 11:23:03,992 [AWT-EventQueue-0] INFO com.ohos.ui.migration - [updateCheck] com.update.check.action.ToCheck - Check start

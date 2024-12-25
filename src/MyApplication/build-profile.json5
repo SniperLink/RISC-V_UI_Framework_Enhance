@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/wkq的电脑/.ohos/config/openharmony/default_MyApplication_LNnCQWWk-Ms00LqOqIvKczx1QUQXbsZ-PJMHNw_SjgU=.cer",
+          "storePassword": "0000001B80B48045074C82FA8716A46198C5F108AE7B7614BD762DE77513FF31102ABC3C09EF9C3C7D4E8D",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BD76F2C23A16FCEE39A9F731BF945409D0CAFAE0E68A0DEB5392A273253AF3A1536E49A00718C63",
+          "profile": "C:/Users/wkq的电脑/.ohos/config/openharmony/default_MyApplication_LNnCQWWk-Ms00LqOqIvKczx1QUQXbsZ-PJMHNw_SjgU=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/wkq的电脑/.ohos/config/openharmony/default_MyApplication_LNnCQWWk-Ms00LqOqIvKczx1QUQXbsZ-PJMHNw_SjgU=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 11,
+        "compatibleSdkVersion": 11,
+        "runtimeOS": "OpenHarmony",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
